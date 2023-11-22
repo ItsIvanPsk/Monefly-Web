@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'MoneflyWeb'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A220D94B893E4E84811413E43AAD7E6E }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_EA75D9ED84594F30A75C06A47E2D7540 }}
           package: .
