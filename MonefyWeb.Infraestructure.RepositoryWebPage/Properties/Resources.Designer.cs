@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MonefyWeb.DomainServices.DomainWebPage.Properties {
+namespace MonefyWeb.Infraestructure.RepositoryWebPage.Properties {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace MonefyWeb.DomainServices.DomainWebPage.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("MonefyWeb.DomainServices.DomainWebPage.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("MonefyWeb.Infraestructure.RepositoryWebPage.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -57,42 +57,6 @@ namespace MonefyWeb.DomainServices.DomainWebPage.Properties {
             }
             set {
                 resourceCulture = value;
-            }
-        }
-        
-        /// <summary>
-        ///   Busca una cadena traducida similar a Destination Type: {0.
-        /// </summary>
-        internal static string AutoMapperDestinationTypeException {
-            get {
-                return ResourceManager.GetString("AutoMapperDestinationTypeException", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Busca una cadena traducida similar a AutoMapper Mapping Exception: {0}.
-        /// </summary>
-        internal static string AutoMapperMappingException {
-            get {
-                return ResourceManager.GetString("AutoMapperMappingException", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Busca una cadena traducida similar a Source Type: {0}.
-        /// </summary>
-        internal static string AutoMapperSourceTypeException {
-            get {
-                return ResourceManager.GetString("AutoMapperSourceTypeException", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Busca una cadena traducida similar a yyyy-MM-dd.
-        /// </summary>
-        internal static string DatePattern {
-            get {
-                return ResourceManager.GetString("DatePattern", resourceCulture);
             }
         }
     }
